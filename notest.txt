@@ -35,3 +35,9 @@ Git Push
 | after this, it will be just require add the command <git push>
 
 git push -u origin main 
+
+Git Stating Workflow
+
+1.git add
+2.git commit -m
+3.git push
