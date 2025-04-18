@@ -57,3 +57,5 @@ Types
 git branch new-branch-name | create new branch
 git checkout new-branch-name | switch branch
 git checkout -b new-branch-name | create and switch new branch
+
+git pull | its like update both local and remote repo with latest changes when working with branches
