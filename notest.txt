@@ -46,8 +46,14 @@ Git Staging Workflow
 
 Branches
 
+Types
+
 -2.major features
 -1. minor feature
 0. main
 1. support
 2. bug fix
+
+git branch new-branch-name | create new branch
+git checkout new-branch-name | switch branch
+git checkout -b new-branch-name | create and switch new branch
