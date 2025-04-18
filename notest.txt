@@ -19,3 +19,19 @@ git add * .py | stage files with specific extension
 
 Commited files
 
+git commit -m <"message here"> | in order to make first commit, must be added first file
+
+Miscs 
+
+git status | check current repository
+
+* Staged files are ready to be committed.
+* Unstaged files are not yet ready to be committed.
+* Untracked files are new files that Git has not seen before.
+
+Git Push
+
+| link local to remote branch so future push commands will automatically apply to this branch
+| after this, it will be just require add the command <git push>
+
+git push -u origin main 
