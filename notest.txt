@@ -1,0 +1,21 @@
+GIT COMMANDS AND STEPS PROCESS:
+
+* Initialize new Git repository:
+
+1.git init | new Git directory inside current folder
+2.git remote add origin <repository_url> | connect local repository (work folder) to remote repository in GitHub
+
+
+* Git Branch
+
+git branch -M main | rename branch to "main"
+git branch | check status connection
+
+Stagig Area / Index
+
+git add example.txt | add single file to stagig area
+git add . | add all changed files from working directory
+git add * .py | stage files with specific extension
+
+Commited files
+
