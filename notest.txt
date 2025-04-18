@@ -36,7 +36,7 @@ Git Push
 
 git push -u origin main 
 
-Git Stating Workflow
+Git Staging Workflow
 
 1.git add
 2.git commit -m
