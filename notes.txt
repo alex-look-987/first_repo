@@ -81,5 +81,3 @@ git rm nombre_del_archivo.txt --cached
 
 # delete only from remote repo index
 git add -A
-
-
