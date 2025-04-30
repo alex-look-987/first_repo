@@ -63,4 +63,24 @@ git checkout -b new-branch-name | create and switch new branch
 
 git pull | its like update both local repo with remote repo with latest changes when working with branches
 
+CHANGE FILES METHODS
+
+# modifiy directly both local and remote repo
+
+1.-git mv | git rm
+2.-git commit -m ""
+3.-git push origin main
+
+# updated remote repo when changes were made manually into local repo
+
+1.-git add -A
+2.-git commit -m ""
+3.-git push origin main
+
+# deleted manually into local repo
+git rm nombre_del_archivo.txt --cached
+
+# delete only from remote repo index
+git add -A
+
 
