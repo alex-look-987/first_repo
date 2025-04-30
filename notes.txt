@@ -54,6 +54,9 @@ Types
 1. support
 2. bug fix
 
+git branch | display local branches
+git branch -r | display remote branches
+git branch -a | display all branches
 git branch new-branch-name | create new branch
 git checkout new-branch-name | switch branch
 git checkout -b new-branch-name | create and switch new branch
