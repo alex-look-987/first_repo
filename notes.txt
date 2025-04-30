@@ -30,8 +30,8 @@ git status | check current repository
 
 GIT PUSH
 
-| link local to remote branch so future push commands will automatically apply to this branch
-| after this, it will be just require add the command <git push>
+# link local to remote branch so future push commands will automatically apply to this branch
+# after this, it will be just require add the command <git push>
 
 git push -u origin main 
 
@@ -60,7 +60,7 @@ git branch new-branch-name | create new branch
 git checkout new-branch-name | switch branch
 git checkout -b new-branch-name | create and switch new branch
 
-git pull | its like update both local repo with remote repo with latest changes when working with branches
+git pull | updates local repo with remote repo latest changes when working with branches
 
 CHANGE FILES METHODS
 
