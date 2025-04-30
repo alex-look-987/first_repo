@@ -5,8 +5,7 @@ GIT COMMANDS AND STEPS PROCESS:
 1.git init | new Git directory inside current folder
 2.git remote add origin <repository_url> | connect local repository (work folder) to remote repository in GitHub
 
-
-* Git Branch
+GIT BRANCH
 
 git branch -M main | rename branch to "main"
 git branch | check status connection
@@ -21,7 +20,7 @@ Commited files
 
 git commit -m <"message here"> | in order to make first commit, must be added first file
 
-Miscs 
+MISCS
 
 git status | check current repository
 
@@ -29,14 +28,14 @@ git status | check current repository
 * Unstaged files are not yet ready to be committed.
 * Untracked files are new files that Git has not seen before.
 
-Git Push
+GIT PUSH
 
 | link local to remote branch so future push commands will automatically apply to this branch
 | after this, it will be just require add the command <git push>
 
 git push -u origin main 
 
-Git Staging Workflow
+GIT STAGING WORKFLOW
 
 1. git status
 2.git add
@@ -44,7 +43,7 @@ Git Staging Workflow
 4.git push
 5.git status
 
-Branches
+BRANCHES
 
 Types
 
