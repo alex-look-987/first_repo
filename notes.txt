@@ -81,3 +81,9 @@ git rm nombre_del_archivo.txt --cached
 
 # delete only from remote repo index
 git add -A
+
+
+UPDATE USERS LOCAL REPOSITORIES
+
+git fetch --prune # delete all local branch references already deleted into remote branch
+git fetch origin # updates remote branches without deteling their references that have been already deleted
