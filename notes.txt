@@ -87,3 +87,7 @@ UPDATE USERS LOCAL REPOSITORIES
 
 git fetch --prune # delete all local branch references already deleted into remote branch
 git fetch origin # updates remote branches without deteling their references that have been already deleted
+
+
+REPLACE LOCAL FILE WITH REMOTE VERSION
+git checkout origin/main -- mi_archivo.py
