@@ -82,12 +82,12 @@ git rm nombre_del_archivo.txt --cached
 # delete only from remote repo index
 git add -A
 
-
 UPDATE USERS LOCAL REPOSITORIES
 
-git fetch --prune # delete all local branch references already deleted into remote branch
-git fetch origin # updates remote branches without deteling their references that have been already deleted
+git branch -D branch_name # delete local branch
+git push origin --delete feature/test # delete remote branch
 
+git fetch origin # update local branches with remote ones (if new branch added, uses this command to get reflected it)
 
 REPLACE LOCAL FILE WITH REMOTE VERSION
 git checkout origin/main -- mi_archivo.py
