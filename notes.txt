@@ -87,7 +87,7 @@ UPDATE USERS LOCAL REPOSITORIES
 git branch -D branch_name # delete local branch
 git push origin --delete feature/test # delete remote branch
 
-git --prune # delete local references of remote branches
+git fetch --prune # delete local references of remote branches
 
 git fetch origin # update local branches with remote ones (if new branch added, uses this command to get reflected it)
 
@@ -127,3 +127,8 @@ USER DEVELOPER
 1.-git checkout main
 2.-git merge new_branch
 3.-git push origin main
+
+USER OPERATOR
+
+1.-git checkout main
+2.- git pull
