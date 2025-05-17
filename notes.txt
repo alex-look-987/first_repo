@@ -87,7 +87,43 @@ UPDATE USERS LOCAL REPOSITORIES
 git branch -D branch_name # delete local branch
 git push origin --delete feature/test # delete remote branch
 
+git --prune # delete local references of remote branches
+
 git fetch origin # update local branches with remote ones (if new branch added, uses this command to get reflected it)
 
 REPLACE LOCAL FILE WITH REMOTE VERSION
 git checkout origin/main -- mi_archivo.py
+
+MERGE AFTER PULL REQUEST ACCEPTED 
+
+git checkout main
+git merge branch/name
+
+########################################################################################################
+
+SEAHLIAH TECHNOLOGIES WORKFLOW 
+
+USER DEVELOPER
+
+1.-git checkout -b new_branch
+2.-git add file
+3.-git commit -m ""
+4.-git push origin new_branch
+
+- GO CHECK GITHUB AND SEND PULL REQUEST
+
+USER OPERATOR (PRODUCTION)
+
+* after pull request sent
+
+1.-git branch -a # check new branch added remote repo
+2.-git fetch origin
+3.-git checkout new_branch
+
+* check changes and authorized them
+
+USER DEVELOPER
+
+1.-git checkout main
+2.-git merge new_branch
+3.-git push origin main
